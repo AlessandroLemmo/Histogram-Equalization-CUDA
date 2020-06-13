@@ -15,6 +15,9 @@ The project was developed with the operating system Windows an the IDE Visual St
 3. Configuration Manager -> Active solution configuration -> Release
 4. Configuration Manager -> Active solution platform -> x64
 5. Build Dependencies -> Build Customizations -> Tick on CUDA
+6. Properties -> Tab VC++ Directories -> Include Directories -> 
+   C:\opencv\build\include (if opencv is installed in disk C)
+   C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2\common\inc
 6. Properties -> Tab CUDA C/C++ -> Target Machine Platform -> 64-bit
 7. Properties -> Tab Linker -> Sub-Tab Input -> Additional Dependencies -> cudart.lib, opencv_world420.lib, opencv_world420d.lib
 8. Go in OpenCV installation folder -> build-> x64 -> vc14 -> bin -> copy the files opencv_world420.dll, opencv_world420d.dll
