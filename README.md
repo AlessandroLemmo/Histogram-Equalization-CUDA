@@ -16,6 +16,7 @@ The project was developed with the operating system Windows an the IDE Visual St
 4. Configuration Manager -> Active solution platform -> x64
 5. Build Dependencies -> Build Customizations -> Tick on CUDA
 6. Properties -> Tab VC++ Directories -> Include Directories -> 
+   
    C:\opencv\build\include (if opencv is installed in disk C)
    C:\ProgramData\NVIDIA Corporation\CUDA Samples\v10.2\common\inc
 6. Properties -> Tab CUDA C/C++ -> Target Machine Platform -> 64-bit
