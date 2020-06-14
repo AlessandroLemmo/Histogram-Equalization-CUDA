@@ -3,6 +3,7 @@
 The aim of the project is to compare two different executions of histogram equalization made with parallel programming modes CUDA and OpenMP.
 
 This repository reports the project developed with CUDA and the results of both applications compared. The OpenMP implementation is available at the following link:
+[https://github.com/AlessandroLemmo/Histogram-Equalization-OpenMP](https://github.com/AlessandroLemmo/Histogram-Equalization-OpenMP)
 
 
 The times of execution of the two modalities have been compared considering the following aspects:
