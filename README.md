@@ -10,7 +10,7 @@ The times of execution of the two modalities have been compared considering the 
 - variation of number of threads
 - variation of image dimensions
 
-The project was developed with the operating system Windows an the IDE Visual Studio. Require the installation of OpenCV. For replicate the result download the project, and compute the following steps:
+The project was developed with the operating system Windows and the IDE Visual Studio. Require the installation of OpenCV. For replicate the result download the project, and compute the following steps:
 
 1. Go in OpenCV installation folder -> build-> x64 -> vc14 -> bin -> copy the files opencv_world420.dll, opencv_world420d.dll
 2. Paste it in the HistogramEqualizationCUDA folder of the project
