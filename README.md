@@ -38,4 +38,4 @@ If you want to replicate the same project from zero compute the following steps:
 In the folder _report_ there are:
 - Relation of the project
 - File excel that reports all time results
-- Powerpoint presentation of the project
+- Slides of presentation
