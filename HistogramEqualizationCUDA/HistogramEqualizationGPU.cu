@@ -15,7 +15,6 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include <chrono>
-//#include "Timer.h"
 
 using namespace cv;
 using namespace std;
@@ -100,18 +99,6 @@ inline __global__ void YCbCr_to_RGB_kernel(unsigned char* d_ptr_image, int* d_hi
 	}
 }
 
-
-/*
-//Check the return value of the CUDA runtime API call and exit the application if the call has failed.
-
-static void CheckCudaErrorAux(const char* file, unsigned line, const char* statement, cudaError_t err)
-{
-	if (err == cudaSuccess)
-		return;
-	std::cerr << statement << " returned " << cudaGetErrorString(err) << "(" << err << ") at " << file << ":" << line << std::endl;
-	exit(1);
-}
-*/
 
 
 inline static int eq_GPU(unsigned char* ptr_image, int width, int height) {
